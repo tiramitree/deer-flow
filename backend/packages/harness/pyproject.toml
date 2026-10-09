@@ -14,7 +14,7 @@ dependencies = [
     # Lower bound reflects what the lockfile resolves and tests run against
     # (langgraph 1.2.9 pulls langchain >=1.3 transitively).
     "langchain>=1.3",
-    "langchain-anthropic>=1.4.1",
+    "langchain-anthropic>=1.4.6",
     "langchain-deepseek>=1.0.1",
     "langchain-mcp-adapters>=0.2.2",
     "langchain-openai>=1.2.1",
@@ -34,12 +34,12 @@ dependencies = [
     "ddgs>=9.10.0",
     "duckdb>=1.4.4",
     "langchain-google-genai>=4.2.1",
-    "langgraph-checkpoint-sqlite>=3.1.0,<3.2",
-    "langgraph-sdk>=0.1.51",
+    "langgraph-checkpoint-sqlite>=3.1.1,<3.2",
+    "langgraph-sdk>=0.4.4",
     "sqlalchemy[asyncio]>=2.0,<3.0",
     "aiosqlite>=0.19",
     "alembic>=1.13",
-    "cryptography>=48.0.1",
+    "cryptography>=50.0.2",
     "e2b-code-interpreter>=2.8.0",
 ]
 
@@ -57,7 +57,7 @@ groundroute = []
 ollama = ["langchain-ollama>=0.3.0"]
 postgres = [
     "asyncpg>=0.29",
-    "langgraph-checkpoint-postgres>=3.1.0,<3.2",
+    "langgraph-checkpoint-postgres>=3.1.1,<3.2",
     "psycopg[binary]>=3.3.3",
     "psycopg-pool>=3.3.0",
 ]
